@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		087EEF122BCEB25700A3DF01 /* CacheImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087EEF112BCEB25700A3DF01 /* CacheImageView.swift */; };
+		08EA7C792BCD43AD00A014FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EA7C782BCD43AD00A014FD /* AppDelegate.swift */; };
+		08EA7C7B2BCD43AD00A014FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EA7C7A2BCD43AD00A014FD /* SceneDelegate.swift */; };
+		08EA7C7D2BCD43AD00A014FD /* ImageGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EA7C7C2BCD43AD00A014FD /* ImageGridViewController.swift */; };
+		08EA7C802BCD43AD00A014FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08EA7C7E2BCD43AD00A014FD /* Main.storyboard */; };
+		08EA7C822BCD43BA00A014FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08EA7C812BCD43BA00A014FD /* Assets.xcassets */; };
+		08EA7C852BCD43BA00A014FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08EA7C832BCD43BA00A014FD /* LaunchScreen.storyboard */; };
+		08EA7C932BCD45DA00A014FD /* ImageGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EA7C922BCD45DA00A014FD /* ImageGridViewModel.swift */; };
+		08EA7C952BCD45F300A014FD /* ImageGridRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EA7C942BCD45F300A014FD /* ImageGridRepository.swift */; };
+		08EA7C972BCD460400A014FD /* ImageGridModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EA7C962BCD460400A014FD /* ImageGridModel.swift */; };
+		08EA7C9A2BCD4EE800A014FD /* ImageGridCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EA7C992BCD4EE800A014FD /* ImageGridCollectionViewCell.swift */; };
+		08EA7C9D2BCD519500A014FD /* ImageGridObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EA7C9C2BCD519500A014FD /* ImageGridObservable.swift */; };
+		08EA7C9F2BCD52B300A014FD /* ImageGridConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EA7C9E2BCD52B300A014FD /* ImageGridConstants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		087EEF112BCEB25700A3DF01 /* CacheImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheImageView.swift; sourceTree = "<group>"; };
+		08EA7C752BCD43AD00A014FD /* ImageGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08EA7C782BCD43AD00A014FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		08EA7C7A2BCD43AD00A014FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		08EA7C7C2BCD43AD00A014FD /* ImageGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridViewController.swift; sourceTree = "<group>"; };
+		08EA7C7F2BCD43AD00A014FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08EA7C812BCD43BA00A014FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08EA7C842BCD43BA00A014FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08EA7C862BCD43BA00A014FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08EA7C922BCD45DA00A014FD /* ImageGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridViewModel.swift; sourceTree = "<group>"; };
+		08EA7C942BCD45F300A014FD /* ImageGridRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridRepository.swift; sourceTree = "<group>"; };
+		08EA7C962BCD460400A014FD /* ImageGridModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridModel.swift; sourceTree = "<group>"; };
+		08EA7C992BCD4EE800A014FD /* ImageGridCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridCollectionViewCell.swift; sourceTree = "<group>"; };
+		08EA7C9C2BCD519500A014FD /* ImageGridObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridObservable.swift; sourceTree = "<group>"; };
+		08EA7C9E2BCD52B300A014FD /* ImageGridConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridConstants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08EA7C722BCD43AC00A014FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08EA7C6C2BCD43AC00A014FD = {
+			isa = PBXGroup;
+			children = (
+				08EA7C772BCD43AD00A014FD /* ImageGrid */,
+				08EA7C762BCD43AD00A014FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08EA7C762BCD43AD00A014FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08EA7C752BCD43AD00A014FD /* ImageGrid.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08EA7C772BCD43AD00A014FD /* ImageGrid */ = {
+			isa = PBXGroup;
+			children = (
+				08EA7C782BCD43AD00A014FD /* AppDelegate.swift */,
+				08EA7C7A2BCD43AD00A014FD /* SceneDelegate.swift */,
+				08EA7C9B2BCD517C00A014FD /* Common */,
+				08EA7C8C2BCD456D00A014FD /* Controller */,
+				08EA7C7E2BCD43AD00A014FD /* Main.storyboard */,
+				08EA7C812BCD43BA00A014FD /* Assets.xcassets */,
+				08EA7C832BCD43BA00A014FD /* LaunchScreen.storyboard */,
+				08EA7C862BCD43BA00A014FD /* Info.plist */,
+			);
+			path = ImageGrid;
+			sourceTree = "<group>";
+		};
+		08EA7C8C2BCD456D00A014FD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				08EA7C982BCD4EBF00A014FD /* Cell */,
+				08EA7C912BCD45B400A014FD /* Repository */,
+				08EA7C8E2BCD459100A014FD /* ViewModel */,
+				08EA7C8D2BCD458800A014FD /* Entity */,
+				08EA7C7C2BCD43AD00A014FD /* ImageGridViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		08EA7C8D2BCD458800A014FD /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				08EA7C962BCD460400A014FD /* ImageGridModel.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		08EA7C8E2BCD459100A014FD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				08EA7C922BCD45DA00A014FD /* ImageGridViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		08EA7C912BCD45B400A014FD /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				08EA7C942BCD45F300A014FD /* ImageGridRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		08EA7C982BCD4EBF00A014FD /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				08EA7C992BCD4EE800A014FD /* ImageGridCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		08EA7C9B2BCD517C00A014FD /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				08EA7C9C2BCD519500A014FD /* ImageGridObservable.swift */,
+				08EA7C9E2BCD52B300A014FD /* ImageGridConstants.swift */,
+				087EEF112BCEB25700A3DF01 /* CacheImageView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08EA7C742BCD43AC00A014FD /* ImageGrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08EA7C892BCD43BA00A014FD /* Build configuration list for PBXNativeTarget "ImageGrid" */;
+			buildPhases = (
+				08EA7C712BCD43AC00A014FD /* Sources */,
+				08EA7C722BCD43AC00A014FD /* Frameworks */,
+				08EA7C732BCD43AC00A014FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageGrid;
+			productName = ImageGrid;
+			productReference = 08EA7C752BCD43AD00A014FD /* ImageGrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08EA7C6D2BCD43AC00A014FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					08EA7C742BCD43AC00A014FD = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 08EA7C702BCD43AC00A014FD /* Build configuration list for PBXProject "ImageGrid" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08EA7C6C2BCD43AC00A014FD;
+			productRefGroup = 08EA7C762BCD43AD00A014FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08EA7C742BCD43AC00A014FD /* ImageGrid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08EA7C732BCD43AC00A014FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08EA7C852BCD43BA00A014FD /* LaunchScreen.storyboard in Resources */,
+				08EA7C822BCD43BA00A014FD /* Assets.xcassets in Resources */,
+				08EA7C802BCD43AD00A014FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08EA7C712BCD43AC00A014FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08EA7C932BCD45DA00A014FD /* ImageGridViewModel.swift in Sources */,
+				08EA7C9A2BCD4EE800A014FD /* ImageGridCollectionViewCell.swift in Sources */,
+				08EA7C9D2BCD519500A014FD /* ImageGridObservable.swift in Sources */,
+				08EA7C7D2BCD43AD00A014FD /* ImageGridViewController.swift in Sources */,
+				08EA7C792BCD43AD00A014FD /* AppDelegate.swift in Sources */,
+				08EA7C9F2BCD52B300A014FD /* ImageGridConstants.swift in Sources */,
+				087EEF122BCEB25700A3DF01 /* CacheImageView.swift in Sources */,
+				08EA7C972BCD460400A014FD /* ImageGridModel.swift in Sources */,
+				08EA7C7B2BCD43AD00A014FD /* SceneDelegate.swift in Sources */,
+				08EA7C952BCD45F300A014FD /* ImageGridRepository.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		08EA7C7E2BCD43AD00A014FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08EA7C7F2BCD43AD00A014FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08EA7C832BCD43BA00A014FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08EA7C842BCD43BA00A014FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08EA7C872BCD43BA00A014FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		08EA7C882BCD43BA00A014FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08EA7C8A2BCD43BA00A014FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ImageGrid/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.friend.ImageGrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08EA7C8B2BCD43BA00A014FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ImageGrid/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.friend.ImageGrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08EA7C702BCD43AC00A014FD /* Build configuration list for PBXProject "ImageGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08EA7C872BCD43BA00A014FD /* Debug */,
+				08EA7C882BCD43BA00A014FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08EA7C892BCD43BA00A014FD /* Build configuration list for PBXNativeTarget "ImageGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08EA7C8A2BCD43BA00A014FD /* Debug */,
+				08EA7C8B2BCD43BA00A014FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08EA7C6D2BCD43AC00A014FD /* Project object */;
+}
